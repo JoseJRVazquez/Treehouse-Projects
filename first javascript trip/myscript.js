@@ -11,6 +11,7 @@ console.log("Hello Again"); //This is not needed
 // name = "Nick";
 // console.log("The user's name is " + name);
 
+/*
 console.log("Before")
 
 var name = prompt("What is your name")
@@ -22,3 +23,28 @@ if(name) {
 
 
 console.log("After")
+*/
+/*
+var counter = 10;
+
+console.log("Before")
+while (counter) {
+	console.log('Hello World!');
+	counter = counter - 1;
+}
+
+while (prompt("What is your name?")) {
+	console.log("Got your name")
+}
+*/
+
+for (var counter=10; counter; counter = counter - 1) {
+	console.log("hellow world", counter);
+}
+console.log("After")
+
+
+
+
+
+
