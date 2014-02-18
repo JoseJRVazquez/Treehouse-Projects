@@ -4,10 +4,21 @@
 console.log("Hello from myscript.js");
 console.log("Hello Again"); //This is not needed
 
-/* This line sets the initial variable name
-var name = prompt("What is your name?");
-alert("Hello " + name);
+//This line sets the initial variable name
+// var name = prompt("What is your name?");
+// alert("Hello " + name);
 
-name = "Nick";
-console.log("The user's name is " + name);
-*/
+// name = "Nick";
+// console.log("The user's name is " + name);
+
+console.log("Before")
+
+var name = prompt("What is your name")
+if(name) {
+	console.log ("If block")
+} else {
+	console.log("Else block")
+}
+
+
+console.log("After")
