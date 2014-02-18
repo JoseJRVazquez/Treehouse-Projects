@@ -74,9 +74,19 @@ for (var i=0; i < friends.length; i+=1) {
 
 var me = {
 	first_name: "Jim",
-	last_name: "Hoskins"
-
+	last_name: "Hoskins",
+	"Employee Number":1
 
 }
 
-console.log(me.first_name)
+me["first_name"] = "james";
+
+console.log(me.first_name);
+console.log(me["last_name"]);
+console.log(me["Employee Number"]);
+console["log"](me);
+
+var key = "last_name"
+
+console.log(me[key])
+
