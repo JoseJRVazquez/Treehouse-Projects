@@ -70,7 +70,7 @@ console.log(friends[friendNumber])
 for (var i=0; i < friends.length; i+=1) {
 	console.log(friends[i])
 }
-*/
+
 
 var me = {
 	first_name: "Jim",
@@ -89,4 +89,38 @@ console["log"](me);
 var key = "last_name"
 
 console.log(me[key])
+*/
+
+
+
+var sayHello = function () {
+	var message = "Hello";
+	message = message + " World!";
+	console.log(message)
+}
+
+var debug = function (message) {
+	console.log("Debug", message);
+}
+
+var doubleNumber = function (num){
+	return num * 2;
+}
+
+debug(doubleNumber(24))
+
+sayHello()
+
+var x = 1;
+
+debug("x has been set")
+
+sayHello()
+
+x += 10;
+var y = 100;
+debug("x has increased. y has been set")
+
+sayHello()
+
 
